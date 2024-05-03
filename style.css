@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 0px  ;
+}
+.box i{
+    /* position:fixed; */
+    font-size: 30px  ;
+    /* margin-top: 20px  ; */
+}
+.box h1{
+    /* font-size: 30px ; */
+    color: brown;
+    font-weight: 800;
+    /* text-shadow: 2px 3px 5px ; */
+}
+.box select{
+    border: 2px solid rgb(25,21,121,0) ;
+}
+.input{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px  ;
+}
+.input i{
+    border-radius: 10px ;
+    border: 2px solid  ;
+    padding: 5px  ;
+    font-size: 20px  ;
+    box-shadow: 2px 3px 5px  ;
+}
+.input input{
+    width: 60%;
+    margin-left: -80px ;
+    border: 1px solid ;
+    border-radius: 10px  ;
+    box-shadow: 2px 3px 5px  ;
+}
+.botton{
+    /* border: 2px solid  ; */
+    box-shadow: 3px 0px 8px  ;
+    width: 100% ;
+    height: 80px ;
+    position: fixed;
+    top: 90% ;
+    display: flex;
+    gap: 8% ;
+}
+.botton i{
+    /* margin-left: 5%  ; */
+    font-size: 70px  ;
+}
+.home:hover  {
+    color: brown;
+    transform: rotate(360deg);
+    transition: .3s;
+}
+.home p{
+    margin-left: 10px ;
+}
+.heart:hover{
+    color: red;
+    transform: rotateY(360deg);
+    transition: .3s;
+}
+.heart p{
+    margin-left: 10px ;
+}
+.search:hover{
+    color: aqua;
+    transition: .3s;
+    
+}
+.user p{
+    margin-left: 10px;
+}
+.user:hover{
+    color: green;
+    transform: rotateX(360deg);
+    transition: .3s ;
+}
+.box-img img{
+    margin-top: 5%  ;
+    margin-left: 5%  ;
+    border-radius: 10% ;
+    /* box-shadow: 2px 3px 5px  ; */
+}
+.box-img2{
+    margin-left: 20px  ;
+    width: 90% ;
+    border: 2px solid red ;
+    border-radius: 20px  ;
+    display: flex;
+}
+.box-img2 p{
+    font-weight: 900;
+} 
+.box-img2 img{
+    margin-left: -0px  ;
+    border-radius: 40px  ;
+}
